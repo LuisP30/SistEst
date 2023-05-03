@@ -5,11 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
-        @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Maven+Pro&family=Slackey&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
         *
         {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
         }
@@ -17,6 +15,11 @@
         {
             height: 100%;
             box-sizing: border-box;
+        }
+        body
+        {
+            background-image: url(5594016.jpg);
+            background-size: 100%;
         }
         header
         {
@@ -50,6 +53,8 @@
             font-weight: bold;
             display: flex;
             margin-left: 5%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
         }
         header nav ul
         {
@@ -73,59 +78,39 @@
             display: flex;
             gap: 10px;
             cursor: pointer;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         main
         {
-            
             align-items: center;
             height: 100%;
         }
-        .secoes
+        .bloco1
         {
             display: flex;
-            gap: 2%;
+            margin-left: 10%;
+            gap: 5%;
         }
-        section
+
+        .publi
         {
             background-color: #B7E1E4;
             color: #5DBCC2;
             font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: bold;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            margin-top: 4%;
+            margin-top: 15%;
             margin-bottom: 4%;
-            margin-left: 5%;
-            margin-right: 5%;
-            min-width: 36%;
+            min-width: 40%;
             min-height: 15%;
+            max-width: 40%;
+            max-height: 15%;
             padding: 1%;
             border: 2px solid #5DBCC2;
             border-radius: 14px;
-            align-items: center;
             text-align: center;
         }
-        figure
-        {
-            margin-left: 10%;
-        }
-        figure img
-        {
-            border: 2px solid black;
-            margin-top: 13%;
-            margin-left: 10%;
-        }
-        .vantagens > p
-        {
-            font-size: large;
-            text-align: center;
-        }
-        .vantagens ul li
-        {
-            list-style-position: inside;
-            margin-left: 45%;
-            align-items: center;
-            margin-bottom: 15px;
-        }
+
 
     </style>
     <title>Estacionamento</title>
@@ -149,25 +134,15 @@
         </div>
     </header>
     <main>
-        <figure>
-            <img src="estacionamento-capa2019-01-820x430.jpg" alt="Imagem aérea de um estacionamento" height="250px" width="850px">
-        </figure>
-        <div class="secoes">
-        <section>
-           <p>O uso de veículos nas grandes metrópoles só cresce e consequentemente a necessidade de locais seguros para estacionar também.</p>
-        </section>
-        <section>
-           <p>Mais de mil estacionamentos esperando pelo seu carro. Seja na faculdade ou no trabalho.</p>
-        </section>        
+        <div class="bloco1">
+            <div class="publi">
+                <p>O uso de veículos nas grandes metrópoles só cresce e consequentemente a necessidade de locais seguros para estacionar também.</p>
+            </div>
+            <div class="publi" id="#publi2">
+                <p>Mais de mil estacionamentos esperando <br> pelo seu carro. <br> Seja na faculdade ou no trabalho.</p>
+            </div>        
         </div>
-        <div class="vantagens">
-            <p>Os estacionamentos privados oferecem uma estrutura que dá aos proprietários de veículos:</p>
-            <ul>
-                <li>Segurança</li>
-                <li>Segurança</li>
-                <li>Segurança Total</li>
-            </ul>
-        </div>
+
     </main>
 </body>
 </html>
