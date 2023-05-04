@@ -16,6 +16,8 @@ body
 }
 header
 {
+    background-image: url(../img/SL-092920-35840-10.jpg);
+    background-size: 100%;
     position: fixed;
     width: 100%;
     background-color: black;
