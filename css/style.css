@@ -79,3 +79,44 @@ main
     align-items: center;
     height: 100%;
 }
+/*Elementos do rodapé da página*/
+footer
+{
+    background-color: #252525;
+    margin-top: 15%;
+    width: 100%;
+    border-top: 2px solid #CC0000;
+    color: #ffffff;
+    font-family: "Roboto Condensed", Sans-serif;
+}
+.section-footer
+{
+    display: flex;
+    margin-bottom: 5%;
+    padding-top: 1%;
+}
+.section-footer p
+{
+    font-weight: bold;
+}
+.section-footer ul
+{
+    list-style: none;
+}
+.region-footer
+{
+    background-color: black;
+    text-align: center;
+    color: #adadad;
+    font-family: "Roboto Condensed", Sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.contato 
+{
+    margin-left: 25%;
+}
+.suporte
+{
+    margin-left: 10%;
+}
