@@ -13,29 +13,19 @@
         .formulario
         {
             background-color: white;
-            min-height: 65%;
-            width: 45%;
+            min-height: 350px;
+            width: 450px;
             box-shadow: 0px 10px 15px #6B6B6B;
             margin-bottom: 4%;
             margin-top: 15%;
-            padding: 5%;
+            padding: 1%;
             border-radius: 14px;
-            margin-left: 25%;
-
+            margin-left: 34%;
         }
         form
         {
             display: grid;
-            gap: 5px;
-            font-size: small;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        input
-        {
-            width: 45%;
-            height: 155%;
-            border-radius: 5px;
-            border: 2px solid #1368CA;
         }
 
 
@@ -45,7 +35,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="img/logo.png" alt="Logotipo do estacionamento" width="90px" height="90px">
+            <img src="img/logotipo.png" alt="Logotipo do estacionamento" width="70px" height="70px">
             <h1>Sist Est</h1>
         </div>
         <nav>
@@ -64,12 +54,14 @@
     <main>
         <div class="cadastro">
             <div class="formulario">
-                <h2>Cadastro</h2>
-                <form action="/cadastrar" method="post">
-                    <label for="">NOME COMPLETO</label>
-                    <input type="text" id="nome" name="nome" required>
-                    <label for="">EMAIL</label>
-                    <input type="email" id="email" name="email" required>
+                <form action="">
+                    <fieldset>
+                        <legend><b>Cadastro</b></legend>
+                        <br>
+                        <div class="inputBox">
+
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </div>
@@ -85,8 +77,8 @@
                 <ul>
                   <li><small>pimenta.lh2@gmail.com</small></li>
                    <li><small>+55 84 99460-4741</small></li>
-                   <li><small>Rua Principal, 135</small></li>
                    <li><small>CEP. 59190-000</small></li>
+                   <li><small><a href="https://www.flaticon.com/br/icones-gratis/carro" title="carro ícones">Logotipo criado por Freepik - Flaticon</a></small></li>
                 </ul>     
            </div>
            <div class="redes">

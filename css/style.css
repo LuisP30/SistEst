@@ -20,6 +20,7 @@ header
     background-size: 100%;
     position: fixed;
     width: 100%;
+    height: 13%;
     background-color: black;
     color: white;
     align-items: center;
@@ -27,8 +28,8 @@ header
     flex-direction: row;
     justify-content: space-evenly;
     box-shadow: 0 5px 15px black;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+
+
 }
 .logo
 {
@@ -60,7 +61,7 @@ header nav ul
 
 header nav ul li:hover /*Esse seletor aplica estilo apenas quando o cursor está em cima do elemento*/
 {
-    color: #CC0000;
+    color: #00AEEA;
     cursor: pointer;
 }
 .login
@@ -85,9 +86,14 @@ footer
     background-color: #252525;
     margin-top: 15%;
     width: 100%;
-    border-top: 2px solid #CC0000;
+    border-top: 1px solid black;
     color: #ffffff;
     font-family: "Roboto Condensed", Sans-serif;
+}
+footer a
+{
+    text-decoration: none;
+    color: #00AEEA;
 }
 .section-footer
 {
@@ -119,4 +125,5 @@ footer
 .suporte
 {
     margin-left: 10%;
+
 }
