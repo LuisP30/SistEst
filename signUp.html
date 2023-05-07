@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+        .cadastro
+        {
+            display: flex;
+        }
+        .formulario
+        {
+            background-color: white;
+            min-height: 65%;
+            width: 45%;
+            box-shadow: 0px 10px 15px #6B6B6B;
+            margin-bottom: 4%;
+            margin-top: 15%;
+            padding: 5%;
+            border-radius: 14px;
+            margin-left: 25%;
+
+        }
+        form
+        {
+            display: grid;
+            gap: 5px;
+            font-size: small;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        input
+        {
+            width: 45%;
+            height: 155%;
+            border-radius: 5px;
+            border: 2px solid #1368CA;
+        }
+
+
+    </style>
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logotipo do estacionamento" width="90px" height="90px">
+            <h1>Sist Est</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Planos e preços</li>
+                <li>Minhas reservas</li>
+            </ul>
+        </nav>
+        <div class="login">
+            <p>Login</p>
+            <img src="img/login.png" alt="Ícone de login" width="15px" height="15px">
+        </div>
+    </header>
+    
+    <main>
+        <div class="cadastro">
+            <div class="formulario">
+                <h2>Cadastro</h2>
+                <form action="/cadastrar" method="post">
+                    <label for="">NOME COMPLETO</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="section-footer">
+            <div class="contato">
+                <p>INFORMAÇÕES DE CONTATO</p> <br>
+                <small>sistest@gmail.com</small>
+           </div>
+           <div class="suporte">
+                <p>DESENVOLVIMENTO E SUPORTE</p> <br>
+                <ul>
+                  <li><small>pimenta.lh2@gmail.com</small></li>
+                   <li><small>+55 84 99460-4741</small></li>
+                   <li><small>Rua Principal, 135</small></li>
+                   <li><small>CEP. 59190-000</small></li>
+                </ul>     
+           </div>
+           <div class="redes">
+
+           </div>
+        </section>
+        <div class="region-footer">
+            <small>&copy; 2023 Sist Est | - Nenhum direito reservado.</small>
+        </div>
+    </footer>
+</body>
+</html>
