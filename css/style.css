@@ -11,9 +11,10 @@ html,body
 }
 body
 {
+    background-color: silver;
     background-image: url(../img/5594016.jpg);
     background-size: 100%;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 header
 {
