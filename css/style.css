@@ -30,7 +30,7 @@ header
     flex-direction: row;
     justify-content: space-evenly;
     box-shadow: 0 5px 15px black;
-
+    z-index: 9; /*A propriedade z-index determina o "nível de empilhamento" de um elemento HTML. */
 
 }
 .logo
