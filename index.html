@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="ico/pageicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="ico/pageicon2.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <style type="text/css">
         /*O CSS interno está aplicando estilo apenas nos elementos que contém nesta página em especial*/
-        .bloco1
+        .box-info
         {
             display: flex;
             margin-left: 13%;
             gap: 4%;
+            user-select: none;
         }
-        .publi
+        .info
         {
             /*background-color: #B7E1E4;*/
             background-color: lightgrey;
@@ -35,7 +36,8 @@
             text-align: center;
             cursor: context-menu;
         }
-        .vantagem
+        /*Início de configuração de cards*/
+        .box-card
         {
             display: flex;
             margin-top: 2%;
@@ -44,7 +46,7 @@
             margin-left: 13%;
   
         }
-        .cards
+        .card
         {
             min-width: 17%;
             max-width: 17%;
@@ -58,44 +60,24 @@
             padding: 1%;
             cursor: pointer;
             transition: all 1s;
-
+            
         }
-        .cards:hover
+        .card:hover
         {
             -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+            transform: scale(1.1) translateZ(0);
+
         }
-        .cards figure
+        .card figure
         {
             margin-bottom: 5%;
         }
-        .cards p
+        .card p
         {
             font-size: smaller;
             margin-top: 5%;
         }
-        button
-        {
-            margin-top: 5%;
-            margin-left: 43%;
-            min-width: 17%;
-            max-width: 17%;
-            min-height: 7%;
-            max-height: 8%;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-            color: white;
-            background-color: #1368CA;
-            font-size: 105%;
-            border-style: none;
-            border-radius: 5px;
-            box-shadow: 0px 10px 15px gray;
-            cursor: pointer;
-        }
-        button:hover
-        {
-            background-color: #167DF2;
-        }
+        /*Fim de configurações de cards*/
     </style>
     <title>Vaga Plus</title>
 </head>
@@ -118,37 +100,37 @@
         </div>
     </header>
     <main>
-        <div class="bloco1">
-            <div class="publi">
+        <div class="box-info">
+            <div class="info">
                 <p>O uso de veículos nas grandes metrópoles só cresce e consequentemente a necessidade de locais seguros para estacionar também.</p>
             </div>
-            <div class="publi">
+            <div class="info">
                 <p>Mais de mil estacionamentos esperando<br>pelo seu carro.<br>Seja na faculdade ou no trabalho.</p>
             </div>        
         </div>
-        <div class="vantagem">
-            <div class="cards">
+        <div class="box-card">
+            <div class="card">
                 <figure>
                     <img src="img/acessibilidade.png" alt="" width="90px" height="100px">
                 </figure>
                 <h4>Acessibilidade</h4>
                 <p>Presente nas maiores metrópoles do país, nosso estacionamento tem uma ótima acessibilidade para os clientes.</p>
             </div>
-            <div class="cards">
+            <div class="card">
                 <figure>
                     <img src="img/seguranca.png" alt="" width="90px" height="100px">
                 </figure>
                 <h4>Segurança</h4>
                 <p>Não basta disponibilizar um bom serviço de estacionamento.<br>Para nós é fundamental garantir a segurança do seu veículo.</p>
             </div>
-            <div class="cards">
+            <div class="card">
                 <figure>
                     <img src="img/planos.png" alt="" width="90px" height="100px">
                 </figure>
                 <h4>Planos</h4>
                 <p>Temos excelentes planos com um ótimo custo benefício.<br>Vaga Plus pode se tornar sua garagem.</p>
             </div>
-            <div class="cards">
+            <div class="card">
                 <figure>
                     <img src="img/excelencia.png" alt="" width="90px" height="100px">
                 </figure>
