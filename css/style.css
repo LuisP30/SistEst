@@ -46,6 +46,7 @@ h1
     font-family: 'Bruno Ace SC', cursive;
     color: white;
     cursor: pointer;
+    user-select: none;
 }
 nav
 {
@@ -74,8 +75,8 @@ header nav ul li:hover /*Esse seletor aplica estilo apenas quando o cursor está
     font-weight: bold;
     align-items: center;
     display: flex;
-    gap: 10px;
     cursor: pointer;
+    gap: 15%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /*Fim de configurações do cabeçalho*/
