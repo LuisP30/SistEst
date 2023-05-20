@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="ico/pageicon2.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">
-        .cadastro
+        .container
         {
             display: flex;
         }
@@ -19,8 +19,8 @@
             margin-top: 10%;
             padding: 1%;
             border-radius: 14px;
-            margin-left: 34%;
-            position: absolute;
+            margin-left: 33%;
+ 
         }
         form
         {
@@ -35,6 +35,8 @@
             color: white;
             font-size: 25px;
             background-image: linear-gradient(to left, #009FFE, #00F28E);
+            cursor: context-menu;
+            user-select: none;
         }
         fieldset
         {
@@ -44,22 +46,10 @@
             border-radius: 8px;
             box-shadow: 0px 10px 25px #6B6B6B;
         }
-        .inputBox
+        label
         {
-            margin-top: 5%;
-            position: relative;
-            margin-left: 1%;
-        }
-        .inputUser
-        {
-            background: none;
-            border: none;
-            border-bottom: 1px solid lightgray;
-            outline: none;
-            letter-spacing: 1px;
-            font-size: 15px;
-
-
+            font-size: smaller;
+            margin-bottom: 2%;
         }
         #data_nascimento
         {
@@ -78,7 +68,7 @@
             <ul>
                 <li>Home</li>
                 <li>Planos e preços</li>
-                <li>Minhas reservas</li>
+                <li>Meu espaço</li>
             </ul>
         </nav>
         <div class="login">
@@ -88,42 +78,18 @@
     </header>
 
     <main>
-        <div class="cadastro">
+        <div class="container">
             <!--FORMULÁRIO DE CADASTRO-->
             <div class="formulario">
                 <form action="">
                     <fieldset>
                         <legend><b>Meu perfil</b></legend>
-                        <div class="inputBox">
-                            <label for="nome">Nome completo</label>
-                            <input type="text" name="nome" id="nome" class="inputUser" required>
-                        </div>
-                        <div class="inputBox">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" class="inputUser" required>
-                        </div>
-                        <div class="inputBox">
-                            <label for="senha">Senha</label>
-                            <input type="password" name="senha" id="senha" class="inputUser" required>
-                        </div>
-                        <div class="inputBox">
-                            <label for="cpf">CPF</label>
-                            <input type="text" name="cpf" id="cpf" class="inputUser" required>
-                        </div>
-                        <div class="inputBox">
-                            <label for="telefone">Telefone</label>
-                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                        </div>
-                        <div class="inputBox">
-                            <label for="data_nascimento"><b>Data de nascimento:</b></label>
-                            <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
-                        </div>
-                        <input type="submit" name="submit" id="submit">
                     </fieldset>
                 </form>
             </div>
         </div>
     </main>
+    <!--Rodapé-->
     <footer>
         <section class="section-footer">
             <div class="contato">
