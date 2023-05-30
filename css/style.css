@@ -6,7 +6,6 @@
 }
 html,body
 {
-    height: 100%;
     box-sizing: border-box;
 }
 body
@@ -82,7 +81,6 @@ header nav ul li:hover /*Esse seletor aplica estilo apenas quando o cursor está
 /*Fim de configurações do cabeçalho*/
 main
 {
-    align-items: center;
     height: 100%;
 }
 /*Configurações rodapé*/
